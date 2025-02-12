@@ -1393,7 +1393,6 @@ def find_slides(
                     series_instance_uid=instance.SeriesInstanceUID,
                     sop_instance_uid=instance.SOPInstanceUID,
                 ),
-                bulk_data_uri_handler=bulk_data_uri_handler
             )
             # Once more, these checks should not be necessary, because we are
             # using these attributes to search for studies in the first place.
